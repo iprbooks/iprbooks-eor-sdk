@@ -49,7 +49,7 @@ $client = new Client($clientId, $token);
 <a name="31"><h3>Получение каталога ЭОР</h3></a>
 Получение списка ЭОР вузов: основной информации и информации о количестве публикаций.
 Атрибуты элемента коллекции доступны с помощью публичных методов определенных и описанных в
-[Eor.php](https://github.com/iprbooks/iprbooks-ebs-sdk/blob/master/src/models/Eor.php)
+[Eor.php](https://github.com/iprbooks/iprbooks-eor-sdk/blob/master/src/models/Eor.php)
 #### Пример:
 ```php
 // инициализация клиента
@@ -74,7 +74,7 @@ foreach ($eorCollection as $eor) {
 <a name="32"><h3>Получение каталога издательств ЭОР</h3></a>
 Каталог вузов-правообладателей контента в рамках указанного ЭОР.
 Атрибуты элемента коллекции доступны с помощью публичных методов определенных и описанных в
-[University.php](https://github.com/iprbooks/iprbooks-ebs-sdk/blob/master/src/models/University.php)
+[University.php](https://github.com/iprbooks/iprbooks-eor-sdk/blob/master/src/models/University.php)
 ##### Пример:
 ```php
 // инициализация клиента
@@ -99,7 +99,7 @@ foreach ($universitiesCollection as $university) {
 <a name="33"><h3>Получение переченя изданий в рамках указанного ЭОР</h3></a>
 Возвращает список доступных книг каталога ЭБС с учетом подписки организации и ссылку бесшовного перехода на книгу.
 Атрибуты элемента коллекции (книги) доступны с помощью публичных методов определенных и описанных в
-[Book.php](https://github.com/iprbooks/iprbooks-ebs-sdk/blob/master/src/models/Book.php)
+[Book.php](https://github.com/iprbooks/iprbooks-eor-sdk/blob/master/src/models/Book.php)
 #### Пример:
 ```php
 // инициализация клиента
